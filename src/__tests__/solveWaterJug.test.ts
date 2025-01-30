@@ -9,7 +9,7 @@ describe('Water Jug Challenge - solveWaterJug', () => {
       { x: 2, y: 0, action: 'Fill Jug X' },
       { x: 0, y: 2, action: 'Transfer 2 gallons from X to Y' },
       { x: 2, y: 2, action: 'Fill Jug X' },
-      { x: 0, y: 4, action: 'Transfer to get 4 gallons.' }, 
+      { x: 0, y: 4, action: 'Transfer from bucket X to Y to get 4 gallons.' }, 
     ]);
   });
 

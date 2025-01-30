@@ -48,7 +48,7 @@ const solveWaterJug = (x: number, y: number, z: number): Step[] | null => {
     // Solution conditions
     if (currentX === z || currentY === z) return steps;
     if (currentX + currentY === z) {
-      return [...steps, { x: currentX - transferToY, y: currentY + transferToY, action: `Transfer to get ${z} gallons.` }];
+      return [...steps, { x: currentX - transferToY, y: currentY + transferToY, action: `Transfer from bucket X to Y to get ${z} gallons.` }];
     }
 
     // Process new states
