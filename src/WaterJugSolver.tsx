@@ -58,7 +58,7 @@ const WaterJugSolver: React.FC = () => {
 				</label>
 
 				<label>
-					Cantidad Z:
+					Amount Z:
 					<input type="number" value={z} onChange={e => setZ(validateInput(e.target.value))} min="1" />
 				</label>
 			</div>
