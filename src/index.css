@@ -5,15 +5,9 @@
 	--tertiary-color: #37384b; /* Light Blue */
 	--accent-color: #39e29d; /* Green */
 	--accent-color-hover: #2bca8b; /* Dark Green */
-	--purple-color: #5762d5; /* Purple */
 	--light-blue-color: #404a65; /* Light Blue */
-	--gray-color: #858585; /* Gray */
-	--gray-light-color: #b6b6b6; /* Gray */
-	--highlight-color: #53354a; /* Purple */
 	--text-color: #ffffff; /* White */
-	--muted-color: #eaeaea; /* Light Gray */
 	--warning-color: #ff0000; /* Red */
-	--attention-color: #ffc107; /* Yellow */
 	--base-color: #000000; /* Black */
 	--radius-default: 6px;
 
@@ -213,7 +207,7 @@ button {
 	background: var(--accent-color);
 	color: var(--base-color);
 	border: none;
-	border-radius: 4px;
+	border-radius: var(--radius-default);
 	cursor: pointer;
 	font-weight: var(--font-weight-medium);
 }
