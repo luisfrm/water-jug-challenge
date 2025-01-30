@@ -89,7 +89,7 @@ docker-compose up
 ## Deployment
 
 Site is deployed to [Vercel](https://vercel.com/).
-You're free to use the deployed version at [water-jug-challenge.vercel.app](https://water-jug-challenge.vercel.app/).
+You're free to use the deployed version at [water-jug-challenge.vercel.app](https://water-jug-challenge-two.vercel.app/).
 
 ## Running Tests
 
